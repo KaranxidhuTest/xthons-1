@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(21, 21, 21);
+  font-family: poppins;
+  font-size: 10px;
+}
+body span{
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0 10px;
+}
+.nav-bar {
+  height: 70px;
+  z-index: 1;
+  /* background-color: rgb(65, 65, 65); */
+  background-image: linear-gradient(to right, rgb(16, 16, 16) , rgb(43, 43, 43), rgb(16, 16, 16) );
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* text-transform: capitalize; */
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* border-radius: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  row-gap: 30px;
+  position: relative;
+  left :100px;
+}
+.card {
+  /* gap: 30px; */
+  /* height: 350px; */
+  width: 80%;
+  border: 2px solid rgb(115, 115, 115);
+  border-radius: 15px;
+  display: flex;
+  justify-content: initial;
+  row-gap: 5px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  color: white;
+  padding-bottom: 30px;
+}
+.card h1{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 90%;
+    text-align: center;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+.card a{
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+}
+.card img{
+    width: 15vw;
+}
+.main{
+    padding-top: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 7rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main p{
+    padding-top: 50px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
