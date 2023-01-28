@@ -53,7 +53,7 @@ body span{
 .card {
   /* gap: 30px; */
   /* height: 350px; */
-  width: 80%;
+  width: 85%;
   border: 2px solid rgb(115, 115, 115);
   border-radius: 15px;
   display: flex;
